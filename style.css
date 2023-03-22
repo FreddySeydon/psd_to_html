@@ -6,6 +6,7 @@
 
 h1 {
     font-family: "Playfair Display", serif;
+    font-size: 1.375em
 }
 
 p {
@@ -24,6 +25,10 @@ button {
     color: #00e0d0;
     border-style: solid;
     border-color: #00e0d0;
+    background-color: transparent;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-weight: bold;
 }
 
 header {
@@ -83,3 +88,35 @@ nav a:hover {
 .teamContainer {
     display: flex;
 }
+
+.story {
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: center;
+}
+
+.storyContent {
+    /* border: solid 2px blue; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 2.5em 0;
+    width: 70%;
+}
+
+.storyContent figure {
+    flex: 1;
+}
+
+.storyContent .text {
+    flex: 2;
+}
+
+.storyContent .text h1 {
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.storyContent .text p {
+    padding: 1em 0.5em;
+}
+
